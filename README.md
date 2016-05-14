@@ -57,4 +57,4 @@ public class ExampleInputScript : MonoBehaviour {
 
 The script `example.lua` located in the `StreamingAssets` folder is necessary for configuring VRPN. The buttons, analogs, and sixdofs configuration URLS must be added to use the appropriate VRPN device. The ability to configure several machines is provided, however currently only the master machine is supported.
 
-Note that this VRPN example currently **Only works on 64-bit Windows**.
+Note that this VRPN example currently **only works on 64-bit Windows**.
