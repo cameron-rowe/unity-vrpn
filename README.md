@@ -18,7 +18,7 @@ private void ConfigureInputs() {
 ```
 Button and analog bindings for the WiiMote controller for VRPN can be found at https://github.com/vrpn/vrpn/blob/master/vrpn_WiiMote.h
 
-To access SixDOF information and button values, see the `ExampleInputScript`. The code for this class is pasted below.
+To access SixDOF information as well as button and analog values, see the `ExampleInputScript`. The code for this class is pasted below.
 
 ```csharp
 using UnityEngine;
@@ -55,6 +55,6 @@ public class ExampleInputScript : MonoBehaviour {
 
 ```
 
-The script `example.lua` located in the `StreamingAssets` folder is necessary for configuring VRPN. The buttons, analogs, and sixdofs configuration URLS must be added to use the appropriate VRPN device. The ability to configure several machines is provided, however currently only the master machine is supported.
+The script `example.lua` located in the `StreamingAssets` folder is necessary for configuring VRPN. The buttons, analogs, and sixdofs configuration URLs must be added to use the appropriate VRPN device. The ability to configure several machines is provided, however currently only the master machine is supported.
 
 Note that this VRPN example currently **only works on 64-bit Windows**.
