@@ -13,10 +13,13 @@ public class VRPNInputManager
 
     private Config config;
 
-    // Use this for initialization
-	public void Start(Config c) {
-    
+    private void ConfigureInputs() {
         //SixdofMap.Add("wheel", "WiiMote0[0]");
+    }
+
+    // Use this for initialization
+    public void Start(Config c) {
+        ConfigureInputs();
 
         foreach(var button in ButtonMap.Values) {
             ButtonValues.Add(button, false);
